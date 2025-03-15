@@ -5,10 +5,10 @@ using namespace std;
 
 int main() {
     Graph G;
-    int source = 0; // Define source vertex
+    int source =  ; // Define source vertex
 
     try {
-        file_to_graph("../src/small.txt", G); // Load graph from file
+        file_to_graph("../src/word.txt", G); // Load graph from file
     } catch (const std::runtime_error& e) {
         cerr << "Error: " << e.what() << endl;
         return 1;
